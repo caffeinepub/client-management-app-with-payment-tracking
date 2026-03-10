@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Main application component that handles authentication flow, profile setup, and renders the dashboard with theme provider and toast notifications.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations including client management, payment tracking, user profiles, and search functionality with proper cache invalidation.",
+  "frontend/src/pages/LoginPage.tsx": "Landing page with feature highlights and Internet Identity login button, showcasing the app's key benefits with a modern gradient design.",
+  "frontend/src/pages/Dashboard.tsx": "Main dashboard page displaying stats cards, client list, and managing client/payment dialogs with full CRUD operations.",
+  "frontend/src/components/Header.tsx": "Application header with branding, user welcome message, theme toggle, and logout functionality.",
+  "frontend/src/components/StatsCards.tsx": "Dashboard statistics cards showing total clients, total revenue, and average payment per client with loading states.",
+  "frontend/src/components/ClientsList.tsx": "Client list component with search functionality, displaying client cards and managing client details dialog.",
+  "frontend/src/components/ClientCard.tsx": "Individual client card showing contact info, payment total, and action buttons for view, edit, and delete with confirmation dialog.",
+  "frontend/src/components/ClientDialog.tsx": "Modal dialog for adding and editing client information with form validation using react-hook-form.",
+  "frontend/src/components/ClientDetailsDialog.tsx": "Detailed client view with tabs for client information and payment history, including add payment functionality.",
+  "frontend/src/components/PaymentsList.tsx": "List of payments for a client with edit and delete actions, sorted by date in descending order.",
+  "frontend/src/components/PaymentDialog.tsx": "Modal dialog for adding and editing payment records with amount, date, method selection, and notes.",
+  "frontend/src/components/ProfileSetupModal.tsx": "First-time user profile setup modal that prompts for user name after initial login.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring blue-purple gradient theme for both light and dark modes."
+}
